@@ -1,4 +1,4 @@
-#include "iris.dtsi" // Notice that the main dtsi files are included in the overlay.
+#include "ergodox.dtsi" // Notice that the main dtsi files are included in the overlay.
 
 &kscan0 {
     col-gpios
