@@ -16,6 +16,6 @@ include:
   - board: nice_nano_v2
     shield: ergodox_left
   - board: nice_nano_v2
-    shield: ergodox_left
+    shield: ergodox_right
   
 
