@@ -46,14 +46,14 @@
 
         default_layer {
 			bindings = <
-            &kp GRAVE   &kp N1      &kp   N2    &kp   N3     &kp    N4     &kp N5  &bt BT_CLR           &kp RPAR    &kp  N6 &kp N7 &kp N8       &kp N9    &kp  N0  &kp MINUS
-            &kp TAB     &kp  Q      &kp   W    &kp    E     &kp     R     &kp  T   &bt BT_SEL 0         &kp RBKT    &kp  Y  &kp U  &kp I        &kp  O    &kp  P   &none
-            &kp CAPS    &kp  A      &kp   S    &kp    D     &kp     F     &kp  G   &bt BT_SEL 1         &kp EQUAL   &kp H   &kp J  &kp K        &kp  L    &kp SEMI &kp SQT
-            &kp LSHFT   &kp  Z      &kp   X    &kp    C     &kp     V    &kp  B                                     &kp N   &kp M  &kp COMMA    &kp DOT   &kp FSLH &kp RSHFT
-            &kp LCTRL   &kp LALT    &kp LGUI   &kp LT       &kp ESC                                  &kp RALT  &kp DEL &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR
-                                                &kp PG_UP  &kp PG_DN                 &none  &none
-                                        &kp LCTRL &kp SPACE  &none                   &none  &kp SPACE &kp RALT
-                                                             &none                   &none
+            &kp GRAVE   &kp N1      &kp   N2    &kp   N3     &kp    N4     &kp N5    &bt BT_CLR           &kp RPAR  &kp  N6 &kp N7   &kp N8       &kp N9    &kp  N0  &kp MINUS
+            &kp TAB     &kp  Q      &kp   W    &kp    E     &kp     R     &kp  T     &bt BT_SEL 0         &kp RBKT  &kp  Y  &kp U    &kp I        &kp  O    &kp  P   &none
+            &kp CAPS    &kp  A      &kp   S    &kp    D     &kp     F     &kp  G     &bt BT_SEL 1         &kp EQUAL &kp H   &kp J    &kp K        &kp  L    &kp SEMI &kp SQT
+            &kp LSHFT   &kp  Z      &kp   X    &kp    C     &kp     V     &kp  B                                    &kp N   &kp M    &kp COMMA    &kp DOT   &kp FSLH &kp RSHFT
+            &kp LCTRL   &kp LALT    &kp LGUI   &kp LT       &kp ESC                                                         &kp RALT &kp DEL      &none     &none    &none
+                                                                          &kp PG_UP  &kp PG_DN            &none     &none
+                                                            &kp LCTRL     &kp SPACE  &none                &none     &kp SPACE &kp RALT
+                                                                                     &none                &none
 			>;
         };
 
@@ -62,8 +62,8 @@
 			bindings = <
             &none &none &none &none &none &none &none    &none &none &none &none &none &none &none
             &none &none &none &none &none &none &none    &none &none &none &none &none &none &none
-            &none &none &none &none &none &none                &none &none &none &none &none &none
             &none &none &none &none &none &none &none    &none &none &none &none &none &none &none
+            &none &none &none &none &none &none                &none &none &none &none &none &none
             &none &none &none &none &none                            &none &none &none &none &none
                                           &none &none    &none &none
                                     &none &none &none    &none &none &none
