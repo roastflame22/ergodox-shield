@@ -3,7 +3,6 @@
     col-offset = <7>;
 };
 &kscan0 {
-<<<<<<< HEAD
     col-gpios //                                   pin
         = <&pro_micro 9 GPIO_ACTIVE_HIGH> // col1  106
         , <&pro_micro 8 GPIO_ACTIVE_HIGH> // col2  104
@@ -12,15 +11,5 @@
         , <&pro_micro 0 GPIO_ACTIVE_HIGH> // col5  008
         , <&pro_micro 1 GPIO_ACTIVE_HIGH> // col5  006
         , <&pro_micro 3 GPIO_ACTIVE_HIGH> // col5  020
-=======
-    col-gpios
-        = <&pro_micro 3 GPIO_ACTIVE_HIGH> // col1 in the schematic
-        , <&pro_micro 1 GPIO_ACTIVE_HIGH> // col2 in the schematic
-        , <&pro_micro 0 GPIO_ACTIVE_HIGH> // col3 in the schematic
-        , <&pro_micro 10 GPIO_ACTIVE_HIGH> // col4 in the schematic
-        , <&pro_micro 7 GPIO_ACTIVE_HIGH> // col5 in the schematic
-        , <&pro_micro 8 GPIO_ACTIVE_HIGH> // col5 in the schematic
-        , <&pro_micro 9 GPIO_ACTIVE_HIGH> // col5 in the schematic
->>>>>>> 59a28b88243535e8d18b12ae537a4b7ba836729e
         ;
 };
