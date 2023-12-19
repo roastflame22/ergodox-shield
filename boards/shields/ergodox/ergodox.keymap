@@ -50,7 +50,7 @@
             &kp TAB     &kp  Q      &kp   W    &kp    E     &kp     R     &kp  T     &bt BT_SEL 0         &kp RBKT  &kp Y  &kp U    &kp I        &kp  O    &kp  P   &kp LBKT
             &kp CAPS    &kp  A      &kp   S    &kp    D     &kp     F     &kp  G     &bt BT_SEL 1         &kp EQUAL &kp H  &kp J    &kp K        &kp  L    &kp SEMI &kp SQT
             &kp LSHFT   &kp  Z      &kp   X    &kp    C     &kp     V     &kp  B                                    &kp N  &kp M    &kp COMMA    &kp DOT   &kp FSLH &kp RSHFT
-            &kp LCTRL   &kp LALT    &kp LGUI   &kp LT       &kp ESC                                                        &kp LEFT &kp DOWN     &kp UP    &kp RIGHT &none
+            &kp LCTRL   &kp LALT    &kp LGUI   &kp LT       &kp ESC                                                 &kp DELETE &kp LEFT &kp DOWN     &kp UP    &kp RIGHT 
                                                                           &kp PG_UP  &kp PG_DN            &none     &kp RALT
                                                             &kp LCTRL     &kp SPACE  &none                &none     &kp ENTER &kp BSPC
                                                                                      &kp RALT                &none
