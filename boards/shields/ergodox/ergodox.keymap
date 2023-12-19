@@ -51,9 +51,9 @@
             &kp CAPS    &kp  A      &kp   S    &kp    D     &kp     F     &kp  G     &bt BT_SEL 1         &kp EQUAL &kp H  &kp J    &kp K        &kp  L    &kp SEMI &kp SQT
             &kp LSHFT   &kp  Z      &kp   X    &kp    C     &kp     V     &kp  B                                    &kp N  &kp M    &kp COMMA    &kp DOT   &kp FSLH &kp RSHFT
             &kp LCTRL   &kp LALT    &kp LGUI   &kp LT       &kp ESC                                                        &kp LEFT &kp DOWN     &kp UP    &kp RIGHT &none
-                                                                          &kp PG_UP  &kp PG_DN            &none     &none
+                                                                          &kp PG_UP  &kp PG_DN            &none     &kp RALT
                                                             &kp LCTRL     &kp SPACE  &none                &none     &kp ENTER &kp BSPC
-                                                                                     &none                &none
+                                                                                     &kp RALT                &none
 			>;
         };
 
