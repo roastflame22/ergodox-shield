@@ -1,15 +1,16 @@
 #include "ergodox.dtsi" // Notice that the main dtsi files are included in the overlay.
 &default_transform { // The matrix transform for this board is 7 columns over because the left half is 7 columns wide according to the matrix.
-    col-offset = <7>;
+    col-offset = <8>;
 };
 &kscan0 {
     col-gpios //                                   pin
-        = <&pro_micro 3 GPIO_ACTIVE_HIGH> // col1  106
-        , <&pro_micro 1 GPIO_ACTIVE_HIGH> // col2  104
-        , <&pro_micro 0 GPIO_ACTIVE_HIGH> // col3  011
-        , <&pro_micro 10 GPIO_ACTIVE_HIGH> // col4 009
-        , <&pro_micro 7 GPIO_ACTIVE_HIGH> // col5  008
-        , <&pro_micro 8 GPIO_ACTIVE_HIGH> // col5  006
-        , <&pro_micro 9 GPIO_ACTIVE_HIGH> // col5  020
+        = <&pro_micro 9 GPIO_ACTIVE_HIGH> // col1  106
+        , <&pro_micro 8 GPIO_ACTIVE_HIGH> // col2  104
+        , <&pro_micro 7 GPIO_ACTIVE_HIGH> // col3  011
+        , <&pro_micro 6 GPIO_ACTIVE_HIGH> // col4  100
+        , <&pro_micro 5 GPIO_ACTIVE_HIGH> // col5  024
+        , <&pro_micro 4 GPIO_ACTIVE_HIGH> // col5  022
+        , <&pro_micro 3 GPIO_ACTIVE_HIGH> // col5  020
+        , <&pro_micro 2 GPIO_ACTIVE_HIGH> // col5  017
         ;
 };
