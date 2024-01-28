@@ -8,8 +8,8 @@
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
-        rows = <6>;
-        columns = <14>;
+        rows = <5>;
+        columns = <16>;
 // |  -  | 1 | 2 | 3 | 4 | 5 | x |        | x | 6 | 7 | 8 | 9 | 0 |  -  |
 // |  -  | q | w | e | r | t | l |        | l | y | u | i | 0 | p |  \  |
 // |  -  | a | s | d | f | g | l |        | l | h | j | k | l | ; |  '  |
